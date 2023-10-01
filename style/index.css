@@ -213,13 +213,12 @@ header a:hover {
   margin: 2rem 0;
 }
 .projectcard1 {
-  margin-top: 1rem;
-  margin-left: 2rem;
-  margin-right: 3rem;
-
+  margin: 1rem 2rem;
   /*background: var(--color2);*/
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 .projectdetail {
   height: 100%;
@@ -232,7 +231,7 @@ header a:hover {
   margin-left: 1rem;
 }
 .projectimage1 img {
-  height: 11rem;
+  height: 13rem;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
@@ -241,7 +240,6 @@ header a:hover {
 }
 .projectimage1 img:hover {
   height: 12rem;
-
   opacity: 0.8;
 }
 .projectdetailchild1 {
@@ -280,12 +278,12 @@ header a:hover {
   padding: 0.3rem 2rem;
 }
 .projectcard2 {
-  margin-top: 3rem;
-  margin-left: -2rem;
-  margin-right: 3rem;
+  margin: 1rem 2rem;
   /*background: var(--color2);*/
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 .projectdetai2 {
   height: 100%;
@@ -296,7 +294,7 @@ header a:hover {
   margin-right: 2rem;
 }
 .projectimage2 img {
-  height: 11rem;
+  height: 13rem;
   float: right;
   margin-top: auto;
   margin-bottom: auto;
@@ -396,7 +394,7 @@ header a:hover {
     height: 6rem;
   }
   header a {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
   .myprofile {
     display: grid;
@@ -484,9 +482,6 @@ header a:hover {
     height: 3rem;
   }
   /*------------ work page start ----------- */
-  .workcontainer {
-    margin-left: 5rem;
-  }
   /*------------ work page end ----------- */
   /*------------ contact page start ----------- */
   .contactsociallinks {
@@ -544,5 +539,12 @@ header a:hover {
     font-size: 16px;
     color: var(--color2);
     margin-right: 5px;
+  }
+/*   -----------work page---------------------- */
+  .projectcard1{
+    flex-direction: column;
+  }
+  .projectcard2{
+    flex-direction: column;
   }
 }
