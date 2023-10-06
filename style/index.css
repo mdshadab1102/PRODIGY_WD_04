@@ -218,7 +218,7 @@ header a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2rem;\
 }
 .projectdetail {
   height: 100%;
